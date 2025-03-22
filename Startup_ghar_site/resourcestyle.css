@@ -1,0 +1,126 @@
+/* Add these styles to the existing styles.css file */
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #EFC417;
+}
+
+.btn {
+    background-color: #0000FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn {
+    margin-left: 20px;
+}
+
+/* Footer styles */
+footer {
+    background: #EFC417;
+    padding: 20px 0;
+    text-align: center;
+    height: 82px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-left img {
+    height: 50px;
+}
+
+.footer-right p {
+    margin: 0;
+}
+
+/* Resources page styles */
+.resources-banner {
+    background-color: #5167DB;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.resources-banner h1 {
+    font-size: 36px;
+}
+
+.resource-section {
+    padding: 50px 20px;
+    background-color: #D9D9D9;
+}
+
+.resource-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.resource-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resource-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.resource-content p {
+    font-size: 18px;
+}
